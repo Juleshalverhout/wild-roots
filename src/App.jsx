@@ -1,23 +1,22 @@
-import './App.css'
+import {Routes, Route} from 'react-router'
+
 import Header from './components/Header'
-import Hero from './components/Hero'
-import Introduction from './components/Introduction'
-import Topics from './components/Topics'
-import Experience from './components/Experience'
-import Discoveries from './components/Discoveries'
-import BookingCTA from './components/BookingCTA'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import Walk from './pages/Walk'
+
+import './App.css'
 
 function App() {
     return (
         <>
         <Header />
-        <Hero />
-        <Introduction />
-        <Topics />
-        <Experience />
-        <Discoveries />
-        <BookingCTA />
+
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/walk" element={<Walk />} />
+        </Routes>
+
         <Footer />
         </>
       )

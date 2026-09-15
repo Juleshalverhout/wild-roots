@@ -51,7 +51,7 @@ function Discoveries() {
                             />
                             <h3>The inhabitants</h3>
                             <p>
-                                Adapted to the local environment, the the forests harbour more life
+                                Adapted to the local environment, the forests harbour more life
                                 than you might expect. Fire salamanders can be seen traversing
                                 the forest especially after a good rain.
                             </p>

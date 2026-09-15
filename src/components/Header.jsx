@@ -1,15 +1,19 @@
+import { Link } from 'react-router'
+
 function Header() {
 
     return (
         <header>
-            <div className="logo">Wild Roots</div>
+            <Link to="/" className="logo">
+              Wild Roots
+            </Link>
 
             <nav>
-                <a href="#walk">The Walk</a>
-                <a href="#about">About</a>
-                <a href="#field-notes">Field Notes</a>
-                <a href="#faq">FAQ</a>
-                <a href="#book">Book A Walk</a>
+              <Link to="/walk">The Walk</Link>
+              <Link to="/about">About</Link>
+              <Link to="/field-notes">Field Notes</Link>
+              <Link to="/faq">FAQ</Link>
+              <Link to="/walk">Book a Walk</Link>
             </nav>
 
         </header>
