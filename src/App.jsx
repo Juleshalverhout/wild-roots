@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Walk from './pages/Walk'
+import About from './pages/About'
 
 import './App.css'
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/walk" element={<Walk />} />
+            <Route path="/about" element={<About />} />
         </Routes>
 
         <Footer />
