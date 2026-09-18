@@ -57,6 +57,11 @@ const faqItems = [
       'Yes, dogs are welcome. If you’re joining a group walk, please make sure your dog is comfortable around other people and dogs, as there may be several dogs in the group.'
   },
   {
+    question: 'Can I book a private walk or bring a larger group?',
+    answer:
+      'Yes. Regular Wild Roots walks are intentionally kept small, but private walks can also be arranged for larger groups, families, friends, companies or team events. Group size, date and other details can be discussed individually. Get in touch if you have something particular in mind.'
+  },
+  {
     question: 'Is every Wild Roots walk the same?',
     answer:
       'Not at all. The Wienerwald changes constantly throughout the year. Spring greens and flowers give way to summer meadows, autumn fungi and eventually the open structure of the winter forest. The route may be familiar, but what we stop to investigate depends on what nature has to show us that day.'
