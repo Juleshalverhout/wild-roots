@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import Walk from './pages/Walk'
 import About from './pages/About'
+import FAQ from './pages/FAQ'
 
 import './App.css'
 
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/walk" element={<Walk />} />
             <Route path="/about" element={<About />} />
+            <Route path="/FAQ" element={<FAQ />} />
         </Routes>
 
         <Footer />

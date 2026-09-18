@@ -1170,3 +1170,130 @@ nav a:hover {
     font-size: clamp(1.35rem, 5vw, 1.7rem);
   }
 }
+
+/* =========================================================
+   FAQ PAGE
+   ========================================================= */
+
+.faq-page {
+  background-color: #f4f1e8;
+  color: #243126;
+}
+
+
+/* ---------- Introduction ---------- */
+
+.faq-intro {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 8rem 4rem 6rem;
+}
+
+.faq-intro h1 {
+  max-width: 1000px;
+  margin: 0 0 2rem;
+  font-size: clamp(2.8rem, 4.3vw, 4rem);
+  line-height: 1.06;
+}
+
+.faq-intro > p:last-child {
+  max-width: 650px;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+
+/* ---------- Questions ---------- */
+
+.faq-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4rem 8rem;
+}
+
+.faq-item {
+  border-top: 1px solid rgba(36, 49, 38, 0.35);
+}
+
+.faq-item:last-child {
+  border-bottom: 1px solid rgba(36, 49, 38, 0.35);
+}
+
+.faq-question {
+  width: 100%;
+  padding: 2rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+
+  border: 0;
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: 1.45rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.faq-question span:last-child {
+  flex-shrink: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.faq-answer {
+  max-width: 780px;
+  padding: 0 0 2.25rem;
+}
+
+.faq-answer p {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   FAQ PAGE — RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .faq-intro {
+    padding: 6rem 2rem 4rem;
+  }
+
+  .faq-list {
+    padding: 0 2rem 6rem;
+  }
+
+  .faq-question {
+    padding: 1.75rem 0;
+    font-size: 1.3rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .faq-intro {
+    padding: 4.5rem 1.25rem 3.5rem;
+  }
+
+  .faq-list {
+    padding: 0 1.25rem 5rem;
+  }
+
+  .faq-question {
+    gap: 1.25rem;
+    font-size: 1.2rem;
+  }
+
+  .faq-answer {
+    padding-bottom: 1.75rem;
+  }
+
+}
